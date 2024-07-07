@@ -1,0 +1,83 @@
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: medium;
+}
+.header {
+  display: flex;
+  align-items: center;
+  min-width: 99vw;
+  width: 99vw;
+  justify-content: center;
+}
+.menu-icon {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 30px;
+}
+.items-details-navbar-name{
+  width: 75vw;
+  text-align: center;
+}
+.home-icon {
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.added-items {
+  padding: 20px;
+}
+.added-items ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.added-items h2 {
+  margin-bottom: 20px;
+}
+.added-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 1rem;
+  background-color: rgba(51, 47, 47, 0.836);
+}
+.added-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.added-item-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  margin-left: 0.8rem;
+}
+.added-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.quantity-controls button {
+  padding: 5px;
+}
+.quantity-controls span {
+  margin: 0 10px;
+}
+.total-cost {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
